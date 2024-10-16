@@ -1,0 +1,49 @@
+.image-form {
+  background-color: #FFF8DC;
+  border: 3px solid #8B4513;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.image-form-input {
+  padding: 10px;
+  border: 2px solid #8B4513;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #FFFAF0;
+}
+
+.image-form-button {
+  padding: 10px 20px;
+  background-color: #FF6B6B;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.image-form-button:hover {
+  background-color: #FF4500;
+}
+
+@media (max-width: 768px) {
+  .image-form {
+    padding: 15px;
+  }
+
+  .image-form-input,
+  .image-form-button {
+    font-size: 14px;
+  }
+}
+
+.image-form-error {
+  color: #FF6B6B;
+  font-size: 14px;
+  margin-top: 5px;
+}
